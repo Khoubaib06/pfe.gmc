@@ -19,3 +19,73 @@ button{
     margin: 0;
     cursor: pointer;
 }
+
+/*-----NavBar Start-----*/
+.navbar{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+    background-color: #fe6400;
+}
+.logo{
+    height: min-content;
+    width: 70px
+    
+}
+.listnav{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-size: large;
+    gap: 10px;
+
+}
+/*-----NavBar End-----*/
+/*-----CART START-----*/
+#products{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:40px;
+    padding: 2rem;
+    background-color:rgb(255, 255, 255);
+    place-items: center;
+}
+.card{
+    width: 100%;
+    height: fit-content;
+    padding: 16px;
+    border: solid 1px;
+    border-radius: 10px;
+    box-sizing: border-box;
+   border: solid 1px rgb(175, 175, 175);
+}
+
+img{
+    width: 100%;
+    height: 400px;
+}
+
+h4{
+    margin: 0;
+    font-size: 22px;
+    padding: 2px;
+}
+
+button{
+    background-color: #fe6400;
+    color: rgb(0, 0, 0);
+    border-radius: 29px;
+    padding: 8px 16px;
+    border-style: none;
+    box-shadow
+}
+/*-----CART END-----*/
+
+
+
+
+
